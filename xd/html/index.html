@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/miformulario.css">
+    <title>CSS</title>
+</head>
+<body>
+    <p>Jose Ignacio Olivo Rios 3C</p>
+    <div id="cuadro">
+        <h1>Mi Formulario</h1>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre"><br><br>
+            <label for="pass">Password</label>
+            <input type="password" name="pass"><br><br>
+            Edad: <br>
+            <input type="radio" name="edad" value="menor">Menor de 18 años <br>
+            <input type="radio" name="edad" value="adulto">Entre 18 y 60 años <br>
+            <input type="radio" name="edad" value="mayor">Mas de 60 años <br><br>
+            Pasatiempos: <br>
+            <input type="checkbox" name="pasa" value="tv">TV <br>
+            <input type="checkbox" name="pasa" value="libro">Libros <br>
+            <input type="checkbox" name="pasa" value="musica">Musica <br>
+            <input type="checkbox" name="pasa" value="deporte">Deportes <br><br>
+            Continentes:
+            <select name="continente">
+                <option value="america">America</option>
+                <option value="africa">Africa</option>
+                <option value="asia">Asia</option>
+                <option value="europa">Europa</option>
+                <option value="oceania">Oceania</option>
+            </select>
+            <br><br>
+            <div id="centrarbotones">
+                <input type="submit" id="boton" value="Enviar">&nbsp;&nbsp;
+                <input type="reset" id="boton" value="Limpiar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
